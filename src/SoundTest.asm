@@ -2643,7 +2643,7 @@ case_random:
 	jmp break;
 case_hatyo:
 	lda param_noize_hatyo
-	cmp #7
+	cmp #15
 	beq end
 	inc param_noize_hatyo
 	jmp break;
